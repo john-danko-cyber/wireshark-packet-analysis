@@ -3,6 +3,8 @@
 ## Summary
 A guided course lab where I used Wireshark to open a sample packet capture of a user browsing to a website, then applied display filters to isolate traffic by IP address, MAC address, protocol, and port. I inspected individual packets layer by layer (Frame, Ethernet II, IPv4, TCP/UDP, DNS, HTTP) and searched payload data for specific text.
 
+> Part of my [Incident Response Journal](https://github.com/john-danko-cyber/incident-response-journal) (Entry 2), which collects all my Detection and Response course labs.
+
 ## My Role
 I worked in the course's Windows lab VM with Wireshark and the provided `sample.pcap` file. I applied each filter, examined the packet details, answered the lab's questions, and took the screenshots in this repo. The capture file and lab environment were provided by the course; no live network was monitored.
 
